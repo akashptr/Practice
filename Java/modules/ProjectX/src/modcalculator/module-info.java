@@ -1,0 +1,4 @@
+module modcalculator
+{
+	exports packagecalculator;
+}

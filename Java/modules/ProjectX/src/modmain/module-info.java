@@ -1,0 +1,4 @@
+module modmain
+{
+	requires modcalculator;
+}

@@ -1,0 +1,11 @@
+// Check whether the array includes an element or not.
+const numbers = [1, 2, 3, 4]; 
+
+console.log(includes(numbers, -1));
+
+function includes(array, searchElement) {
+  for (let element of array)
+    if (element === searchElement)
+      return true;
+  return false;
+}
